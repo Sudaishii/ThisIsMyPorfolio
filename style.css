@@ -2,16 +2,17 @@
 
 body {font-family: 'Roboto', serif; background-color: #0f0f0f; background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px), linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px); background-size: 35px 35px; }
 img{border-radius: 50%; width: 250px; height: 300px; border: #Ffb7c5 solid 3px;}
-#logo1{font-family: 'Work Sans', sans-serif;  font-weight: normal; background-color: #Ffb7c5; color: black; padding: 5px; border-radius: 20%;}
-#logo2{font-weight: bold; font-family: "Oswald", serif;}
+#logo1{font-family: 'Work Sans', sans-serif;  font-weight: normal; background-color: #2C2C2C; padding: 5px; border-radius: 20%;}
+#logo2{font-weight: bold; font-family: "Oswald", serif; color: black;}
 
-li :hover{text-decoration: underline; color: #Ffb7c5;}
+li :hover{text-decoration: underline;}
 
 a i:hover{color:  #Ffb7c5; border: white solid 1px; border-radius: 50%; padding: 4px;}
 
-header{display: flex; justify-content: space-between; border-bottom: #Ffb7c5 solid 1px; background-color: rgba(255, 183, 197, 0.1);}
-header h4{padding: 20px; font-size: 15px;}
-ul{display: flex; gap: 20px; right: 20px; position: relative; top: 25px;}
+header{position: fixed; width: 100%; display: flex; justify-content: space-between; border-bottom: #Ffb7c5 solid 1px; background-color: #Ffb7c5;}
+header h4{padding: 15px; font-size: 15px;}
+ul{display: flex; gap: 20px; padding: 18px 20px 0px 0px;}
+ul li a{ color: black;}
 
 .introduction{ width: 100%; min-height: 650px; justify-content: center; align-items: center; display: flex; gap: 30px;}
 .profession{color: #Ffb7c5;}
@@ -20,12 +21,14 @@ ul{display: flex; gap: 20px; right: 20px; position: relative; top: 25px;}
 .content1 h1{font-size: 45px; color: #Ffb7c5; padding: 0;}
 .content1 h3{padding: 10px 0px 10px 0px;}
 
-.AboutMe{border-top: #Ffb7c5 solid 1px; border-bottom: #Ffb7c5 solid 1px; min-height: 300px;background-color: rgba(255, 183, 197, 0.1); justify-content: center; align-items: center; display: flex; flex-direction: column; text-align: center;}
+.title-about h2{font-size: 250px;}
+.AboutMe{display: flex; flex-direction: column; text-align: center; border-top: #Ffb7c5 solid 1px; border-bottom: #Ffb7c5 solid 1px; min-height: 300px;background-color: rgba(255, 183, 197, 0.1); }
 #aboutmeP{margin-bottom: 43px; font-size: 20px; word-spacing: normal;}
-.polka-dots h2{font-size: 25px;  padding-top: 5px;}
+.polka-dots{font-size: 25px; padding-bottom: 20px; padding-top: 13px;} 
 
-.polka-dots{ gap: 100px; justify-content: center; position: relative; bottom: 50px;}
-.polka-dots i{font-size: 15px;}
+
+.polka-dots{ gap: 100px; justify-content: center;}
+.polka-dots i{font-size: 20px;}
 .red-dot { color: #ff605c;}
 .yellow-dot { color: #ffbd44; }
 .green-dot { color: #00ca4e; }
@@ -58,3 +61,8 @@ ul{display: flex; gap: 20px; right: 20px; position: relative; top: 25px;}
 .git {color: #f05032;}
 .java{color: #007396;}
 .github{color: #171515;}
+#FX{color: #e34c26;}
+
+.Achievement-Container{justify-content: center; align-content: center; display: flex; height: 400px;}
+.Achievements{display: flex; justify-content: space-evenly; align-content: center; flex-wrap: wrap; flex: row; background-color: black; width: 80%; height: auto;}
+.achieve-cont{display: flex; flex-direction: column;}

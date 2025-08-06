@@ -7,6 +7,7 @@
     <title>Rasheed's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link rel="icon" type="image/x-icon" href="images/icons8-atom-50.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,15 +23,15 @@
             <nav>
                 <ul>
                     <li><a href="#introduction">Home</a></li>
-                    <li><a href="#AboutMe">About</a></li>
-                    <li><a href="">Education</a></li>
+                    <li><a href="#aboutcontent">About</a></li>
+                    <li><a href="#educational">Education</a></li>
                     <li><a href="">Achievements</a></li>
                     <li><a href="">Projects</a></li>
                 </ul>
             </nav>
         </header>
 
-        <div class="introduction">
+        <div class="introduction" id="introduction">
 
             <div>
                 <img src="images/realMe.jpg" alt="File not found!">
@@ -48,22 +49,27 @@
                     <a href="https://www.facebook.com/snezhy.haschwalth/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                     <a href="https://www.instagram.com/snezhy.haschwalth/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                     <a href=""><i class="fa-brands fa-tiktok"></i></a>
-                    <a href="tapalesrasheed123@gmail.com" target><i class="fas fa-envelope"></i></a> 
+                    <a href="tapalesrasheed123@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a> 
                     </div>    
 
             </div>
 
         </div>
-
-        <div class="AboutMe">
+        
+        
+        <div class="AboutMe" id="AboutMe">
 
             <div id="aboutcontent">
-               <div class="polka-dots">
-                <i class="fas fa-circle red-dot"></i>
-                <i class="fas fa-circle yellow-dot"></i>
-                <i class="fas fa-circle green-dot"></i>
-                <h2>About Me</h2>
-               </div>
+               
+                
+                    <div class="polka-dots">
+                        <i class="fas fa-circle red-dot"></i>
+                        <i class="fas fa-circle yellow-dot"></i>
+                        <i class="fas fa-circle green-dot"></i>   
+                    </div>  
+                <div id="title-about"></div>
+                    <h2>About Me</h2>      
+                </div>
             
                <div id="aboutmeP">
                 <i><p>Hi, I'm Rasheed. A passionate developer currently pursuing a Bachelor of Science in Information Technology.</p></i>
@@ -124,8 +130,8 @@
         	     </div>
         	       
         	    <div class="skill-cont">
-        	        <h6>Git</h6>
-        	        <i class="fab fa-git-alt git"></i>
+        	        <h6>C</h6>
+        	        <i class="devicon-c-plain colored"></i>
         	    </div>
         	    
         	    <div class="skill-cont">
@@ -137,11 +143,40 @@
         	        <h6>GitHub</h6>
         	        <i class="fab fa-github github"></i>
         	    </div>
+
+                <div class="skill-cont">
+                    <h6>Java<span id="FX">FX</span></h6>
+                    <i class="fab fa-java java"></i>
+                </div>
         	        
         	   </div>  
         	    
         	</div>
         
+
+            <div class="Achievement-Container">
+            <div class="Achievements">
+                <div class="achieve-cont">
+                    <h3>NCII Certificate Holder</h3>
+                    <img src="" alt="">
+                    <button></button>
+                    <p>2025</p>
+                </div>
+                
+                <div class="achieve-cont">
+                    <h3>Dean's Lister Achiever</h3>
+                    <img src="" alt="">
+                    <button></button>
+                    <p>2023</p>
+                </div>
+                
+                <div class="achieve-cont">
+                    2nd Place IMBENTONG NAGAHANON
+                    <img src="" alt="">
+                    <p>2019</p>
+                </div>
+            </div>
+        </div>
     </div>
     
 </body>
