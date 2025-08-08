@@ -23,9 +23,9 @@
             <nav>
                 <ul>
                     <li><a href="#introduction">Home</a></li>
-                    <li><a href="#aboutcontent">About</a></li>
+                    <li><a href="#aboutcontent">About Me</a></li>
                     <li><a href="#educational">Education</a></li>
-                    <li><a href="">Achievements</a></li>
+                    <li><a href="#Achievement-Container">Achievements</a></li>
                     <li><a href="">Projects</a></li>
                 </ul>
             </nav>
@@ -84,40 +84,59 @@
 
         
 
-    <div id="educational">
+    <section id="educational">
         <h2>Educational Background</h2>
        <div id="box-container">
 
         
         
             <div class="edu-container">
-                <i class="fas fa-university edu-icon"></i>
+                <div class="img1">
+                <img src="images/scc.png" alt="">
+                </div>
+
+                <div>
                 <h3>Currently a College Student</h3>
                 <p>Majoring Bachelor of Science in Information Technology</p>
                 <p><span class="AtLocation">At St. Cecilia's College Inc.</span></p>
+                </div>
+                
             </div>
 
             <div class="edu-container">
-                <i class="fas fa-user-graduate edu-icon"></i>
+                <div class="img1">
+                    <img src="images/scc.png" alt="">
+                </div>
+                
+                <div>
                 <h3>Senior High School</h3>
-                <p>TVL: Information Communication Technology</p>
+                <p>TVL:ICT Information Communication and Technology</p>
                 <p><span class="AtLocation">At St. Cecilia's College Inc.</span></p>
+                </div>
+                
             </div>
  
             <div class="edu-container">
-                <i class="fas fa-school edu-icon"></i>
+                <div class="img1" id="alter-stec_image">
+                    <img src="images/stec.png"  alt="">
+                </div>
+               
+                <div>
                 <h3>Junior High School</h3>
                 <p>Science and Technology Education Center</p>
-                <p><span class="AtLocation">At City of Naga Integrated Center for Science Technology</span></p>
+                <p><span class="AtLocation">At City of Naga Integrated Center for Science Technology</span></p>                    
+                </div>
+
 
             </div>
         </div>
-      </div>  
+    </section1>  
       
         <div class="skills-container">
         	<div id="skills">
 
         	  <h2> Skills </h2>
+
         	    <div id="card-holder">
         	     <div class="skill-cont">
         	         <h6>HTML</h6>
@@ -159,7 +178,7 @@
         	</div>
         </div>
 
-            <div class="Achievement-Container">
+            <div class="Achievement-Container" id="Achievement-Container">
             <h2>Achievements</h2>
             <div class="Achievements">
                 
@@ -167,40 +186,92 @@
                 <div class="achieve-cont">
                     <img src="images/realnc2.png" alt="">       
                      <hr>            
-                    <h3>NCII Certificate Holder</h3>
-                    <p>2025</p>
-                    <button id="nc2btn"><a href="https://drive.google.com/file/d/1SzE3jF56J41YDQoiAZ4p_qWTsM_5hvFN/view?usp=sharing" target="_blank">Verify <i class="fas fa-arrow-right"></i> </a></button>
+                    <h3 class="h3-format">NCII Certificate Holder</h3>
+                    <hr class="lower">
+                    <button id="nc2btn"><a href="https://github.com/Sudaishii/certifications/blob/main/nc2.png" target="_blank">Verify <i class="fas fa-arrow-right"></i> </a></button>
                 </div>
                 
                 <div class="achieve-cont">
-                    <img src="" alt="">
-                    <h4>Dean's Lister Achiever</h4>
-                    <p>2023</p>
+                    <img src="images/DL.jpg" alt="">
+                    <hr>
+                    <h3 class="h3-format">Dean's List Achiever</h3>
+                    <hr class="lower">
                 </div>
                 
                 <div class="achieve-cont">
                     <img src="images/imbento.jpg" alt="">
                     <hr>
                     <h3>2nd Placer <br> "Ibentong Nagahanon"</h3>
-                    <p>2019</p>
+                    <hr>
                 </div>
             </div>
         </div>
 
-        <div class="projects">
+        <div id="projects">
+            <h2>Projects</h2>
+            <div class="projects-div">
+                
+                
 
-            <div class="project-cont">
-                <img src="" alt=""> 
-                <h3>PayFuse</h3>
-                <p></p>
+                <div class="projects-cont">
+
+                    
+                    <img src="images/MYSys.png" alt="">
+                    <hr>
+
+                   <div id="for-link"> 
+
+                    <div class="project-details">
+                    <h3><span id="pay-text">Pay</span><span id="fuse">Fuse</span></h3>
+                    <p>Payslip Management System</p>
+                    
+                    <div class="lang-used">
+                    <i class="devicon-java-plain colored" title="Java"></i>
+                    <i class="devicon-css3-plain colored" title="CSS"></i>
+                    <i class="devicon-apache-plain colored" title="Apache"></i>
+                    <i class="devicon-mysql-plain colored" title="MySQL"></i>
+                    </div>
+                    
+                    </div>
+
+                    <div class="source-btn">
+                        <a href="https://github.com/Sudaishii/my-system" target="_blank">View Source...</a>
+                    </div>
+
+                    </div>
+                </div>
+
+                <div class="projects-cont">
+
+                    <img src="images/hanami.png" alt="">
+                    <hr>
+
+                   <div id="for-link"> 
+
+                    <div class="project-details">
+                    <h3><span id="pay-text">Pay</span><span id="fuse">Fuse</span></h3>
+                    <p>Payslip Management System</p>
+                    
+                    <div class="lang-used">
+                    <i class="devicon-java-plain colored" title="Java"></i>
+                    <i class="devicon-css3-plain colored" title="CSS"></i>
+                    <i class="devicon-apache-plain colored" title="Apache"></i>
+                    <i class="devicon-mysql-plain colored" title="MySQL"></i>
+                    </div>
+                    
+                    </div>
+
+                    <div class="source-btn">
+                        <a href="https://github.com/Sudaishii/my-system" target="_blank">View Source...</a>
+                    </div>
+
+                    </div>
+                </div>
+
 
             </div>
-
         </div>
 
-        <footer>
-
-        </footer>
 
     </div>
     
